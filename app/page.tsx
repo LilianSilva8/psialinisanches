@@ -1,0 +1,227 @@
+import Image from 'next/image'
+import Link from 'next/link'
+import { ArrowRight, Heart, Leaf, MessageCircleHeart, Quote, Users, Video } from 'lucide-react'
+
+export default function HomePage() {
+  return (
+    <>
+      {/* Hero */}
+      <section className="relative overflow-hidden">
+        <div className="mx-auto grid max-w-6xl items-center gap-10 px-5 py-16 md:grid-cols-2 md:gap-14 md:px-8 md:py-24">
+          <div className="order-2 md:order-1">
+            <span className="inline-block rounded-full bg-secondary px-4 py-1.5 text-xs uppercase tracking-[0.25em] text-secondary-foreground">
+              Psicanálise clínica
+            </span>
+            <h1 className="mt-6 text-balance font-serif text-4xl leading-[1.1] text-foreground md:text-6xl">
+              Um encontro com quem você
+              <span className="italic text-primary"> realmente é</span>
+            </h1>
+            <p className="mt-6 max-w-md text-pretty leading-relaxed text-muted-foreground">
+              Acredito na força transformadora da escuta. Aqui você encontra um espaço seguro para
+              olhar para dentro, compreender suas emoções e construir uma relação mais gentil com
+              você mesma.
+            </p>
+            <div className="mt-8 flex flex-wrap items-center gap-4">
+              <Link
+                href="/contato"
+                className="inline-flex items-center gap-2 rounded-full bg-primary px-7 py-3 text-sm font-medium text-primary-foreground transition-colors hover:bg-primary/90"
+              >
+                Agende sua sessão <ArrowRight className="size-4" />
+              </Link>
+              <Link
+                href="/ebook"
+                className="inline-flex items-center gap-2 rounded-full border border-primary/40 px-7 py-3 text-sm font-medium text-primary transition-colors hover:bg-primary/10"
+              >
+                Conheça o ebook
+              </Link>
+            </div>
+          </div>
+
+          <div className="order-1 md:order-2">
+            <div className="relative mx-auto aspect-[4/5] w-full max-w-md">
+              <div className="absolute -inset-3 -rotate-2 rounded-[2rem] bg-accent/50" />
+              <div className="absolute inset-0 rotate-1 overflow-hidden rounded-[2rem] shadow-xl shadow-primary/10">
+                <Image
+                  src="/images/alini-hero.png"
+                  alt="Alini Sanches, psicanalista"
+                  fill
+                  priority
+                  className="object-cover"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Faixa de valores */}
+      <section className="border-y border-border/60 bg-card">
+        <div className="mx-auto grid max-w-6xl gap-8 px-5 py-12 md:grid-cols-3 md:px-8">
+          {[
+            { icon: Heart, title: 'Acolhimento', text: 'Um espaço sem julgamentos, no seu tempo e do seu jeito.' },
+            { icon: Leaf, title: 'Autoconhecimento', text: 'Ferramentas para compreender suas emoções e histórias.' },
+            { icon: MessageCircleHeart, title: 'Escuta genuína', text: 'A palavra como caminho de cura e transformação.' },
+          ].map((item) => (
+            <div key={item.title} className="flex items-start gap-4">
+              <span className="flex size-11 shrink-0 items-center justify-center rounded-full bg-secondary text-primary">
+                <item.icon className="size-5" />
+              </span>
+              <div>
+                <h3 className="font-serif text-xl text-foreground">{item.title}</h3>
+                <p className="mt-1 text-sm leading-relaxed text-muted-foreground">{item.text}</p>
+              </div>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      {/* Apresentação */}
+      <section className="mx-auto max-w-6xl px-5 py-20 md:px-8 md:py-28">
+        <div className="grid items-center gap-12 md:grid-cols-2">
+          <div className="relative aspect-[4/5] w-full max-w-md overflow-hidden rounded-[2rem] shadow-lg shadow-primary/10">
+            <Image
+              src="/images/alini-sobre.png"
+              alt="Alini Sanches em seu espaço de atendimento"
+              fill
+              className="object-cover"
+            />
+          </div>
+          <div>
+            <span className="text-xs uppercase tracking-[0.3em] text-primary">Prazer, sou a Alini</span>
+            <h2 className="mt-4 text-balance font-serif text-3xl leading-tight text-foreground md:text-4xl">
+              A psicanálise como um convite ao encontro com você
+            </h2>
+            <p className="mt-6 leading-relaxed text-muted-foreground">
+              Ao longo da minha trajetória, acompanhei pessoas em busca de sentido, de alívio para a
+              angústia e de uma vida mais leve. Meu trabalho é feito de presença, respeito e escuta
+              cuidadosa — porque acredito que toda dor merece ser ouvida.
+            </p>
+            <p className="mt-4 leading-relaxed text-muted-foreground">
+              Cada processo é único. Juntas, vamos costurar sentidos para aquilo que hoje parece
+              confuso e reencontrar a sua própria voz.
+            </p>
+            <Link
+              href="/sobre"
+              className="mt-8 inline-flex items-center gap-2 text-sm font-medium text-primary transition-all hover:gap-3"
+            >
+              Conheça minha história <ArrowRight className="size-4" />
+            </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* Serviços */}
+      <section className="bg-secondary/40">
+        <div className="mx-auto max-w-6xl px-5 py-20 md:px-8 md:py-28">
+          <div className="mx-auto max-w-2xl text-center">
+            <span className="text-xs uppercase tracking-[0.3em] text-primary">Como posso ajudar</span>
+            <h2 className="mt-4 text-balance font-serif text-3xl leading-tight text-foreground md:text-4xl">
+              Atendimentos pensados para o seu momento
+            </h2>
+          </div>
+          <div className="mt-14 grid gap-6 md:grid-cols-3">
+            {[
+              { icon: Video, title: 'Sessões online', text: 'Atendimento individual por videochamada, com o mesmo cuidado de perto — de onde você estiver.' },
+              { icon: Heart, title: 'Atendimento presencial', text: 'Encontros presenciais em um ambiente acolhedor, reservado e seguro para a sua escuta.' },
+              { icon: Users, title: 'Grupos terapêuticos', text: 'Encontros em grupo para partilhar, pertencer e crescer no encontro com o outro.' },
+            ].map((s) => (
+              <div
+                key={s.title}
+                className="group rounded-3xl border border-border/60 bg-card p-8 transition-shadow hover:shadow-lg hover:shadow-primary/10"
+              >
+                <span className="flex size-12 items-center justify-center rounded-2xl bg-secondary text-primary">
+                  <s.icon className="size-6" />
+                </span>
+                <h3 className="mt-6 font-serif text-2xl text-foreground">{s.title}</h3>
+                <p className="mt-3 text-sm leading-relaxed text-muted-foreground">{s.text}</p>
+              </div>
+            ))}
+          </div>
+          <div className="mt-12 text-center">
+            <Link
+              href="/servicos"
+              className="inline-flex items-center gap-2 rounded-full border border-primary/40 px-7 py-3 text-sm font-medium text-primary transition-colors hover:bg-primary/10"
+            >
+              Ver todos os serviços <ArrowRight className="size-4" />
+            </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* Destaque do Ebook */}
+      <section className="mx-auto max-w-6xl px-5 py-20 md:px-8 md:py-28">
+        <div className="grid items-center gap-12 overflow-hidden rounded-[2.5rem] bg-primary px-6 py-12 text-primary-foreground md:grid-cols-2 md:px-14 md:py-16">
+          <div>
+            <span className="text-xs uppercase tracking-[0.3em] text-primary-foreground/70">
+              Novo ebook
+            </span>
+            <h2 className="mt-4 text-balance font-serif text-3xl leading-tight md:text-4xl">
+              Reencontre sua autoestima e o amor por si mesma
+            </h2>
+            <p className="mt-5 leading-relaxed text-primary-foreground/85">
+              Um guia sensível e prático sobre autoestima e autoconhecimento, para você transformar a
+              relação que tem consigo mesma e viver com mais leveza.
+            </p>
+            <Link
+              href="/ebook"
+              className="mt-8 inline-flex items-center gap-2 rounded-full bg-background px-7 py-3 text-sm font-medium text-primary transition-transform hover:scale-[1.02]"
+            >
+              Quero conhecer o ebook <ArrowRight className="size-4" />
+            </Link>
+          </div>
+          <div className="relative mx-auto aspect-square w-full max-w-sm">
+            <Image
+              src="/images/ebook-mockup.png"
+              alt="Capa do ebook de Alini Sanches"
+              fill
+              className="object-contain drop-shadow-2xl"
+            />
+          </div>
+        </div>
+      </section>
+
+      {/* Depoimentos */}
+      <section className="bg-card">
+        <div className="mx-auto max-w-6xl px-5 py-20 md:px-8 md:py-28">
+          <div className="mx-auto max-w-2xl text-center">
+            <span className="text-xs uppercase tracking-[0.3em] text-primary">Histórias reais</span>
+            <h2 className="mt-4 font-serif text-3xl leading-tight text-foreground md:text-4xl">
+              O que dizem sobre o processo
+            </h2>
+          </div>
+          <div className="mt-14 grid gap-6 md:grid-cols-3">
+            {[
+              { text: 'Encontrei um espaço onde finalmente pude ser eu mesma. A escuta da Alini mudou a forma como me enxergo.', name: 'M. L.' },
+              { text: 'Cada sessão me trouxe mais clareza. Hoje entendo minhas emoções e sei lidar com elas com carinho.', name: 'R. S.' },
+              { text: 'O acolhimento é genuíno. Saí de cada encontro me sentindo mais leve e mais viva.', name: 'C. A.' },
+            ].map((t) => (
+              <figure key={t.name} className="rounded-3xl border border-border/60 bg-background p-8">
+                <Quote className="size-7 text-primary/50" />
+                <blockquote className="mt-4 leading-relaxed text-foreground/90">{t.text}</blockquote>
+                <figcaption className="mt-6 text-sm font-medium text-primary">{t.name}</figcaption>
+              </figure>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* CTA final */}
+      <section className="relative overflow-hidden bg-secondary/50">
+        <div className="mx-auto max-w-3xl px-5 py-20 text-center md:px-8 md:py-28">
+          <h2 className="text-balance font-serif text-3xl leading-tight text-foreground md:text-5xl">
+            Você não precisa atravessar isso sozinha
+          </h2>
+          <p className="mx-auto mt-5 max-w-xl text-pretty leading-relaxed text-muted-foreground">
+            Dê o primeiro passo em direção ao seu bem-estar. Estou aqui para caminhar ao seu lado.
+          </p>
+          <Link
+            href="/contato"
+            className="mt-8 inline-flex items-center gap-2 rounded-full bg-primary px-8 py-3.5 text-sm font-medium text-primary-foreground transition-colors hover:bg-primary/90"
+          >
+            Agende sua sessão <ArrowRight className="size-4" />
+          </Link>
+        </div>
+      </section>
+    </>
+  )
+}
