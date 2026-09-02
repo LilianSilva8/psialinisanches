@@ -23,9 +23,9 @@ const servicos = [
   },
   {
     icon: Users,
-    title: 'Grupos terapêuticos',
-    text: 'Encontros em grupo para compartilhar experiências, sentir-se pertencente e crescer no encontro com o outro. A força de não estar sozinha.',
-    items: ['Grupos reduzidos', 'Troca e pertencimento', 'Temas norteadores', 'Ambiente de confiança'],
+    title: 'Terapia de casais',
+    text: 'Encontros reservados para reconectar, compreender as dinâmicas da relação e crescer juntos através do diálogo. A força de reconstruir e fortalecer o vínculo a dois.',
+    items: ['Espaço seguro', 'Reconexão e diálogo', 'Alinhamento do futuro', 'Ambiente sem julgamentos'],
   },
 ]
 

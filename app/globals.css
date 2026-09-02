@@ -39,36 +39,33 @@
   color-scheme: light;
   --radius: 1rem;
 
-  /* Off-white warm / nude paper */
-  --background: oklch(0.975 0.008 60);
-  --foreground: oklch(0.34 0.02 30);
+  /* Paleta Alini Sanches */
+  --background: #fbf0e8;
+  --foreground: #965420;
 
-  --card: oklch(0.99 0.006 70);
-  --card-foreground: oklch(0.34 0.02 30);
+  --card: #fbf0e8;
+  --card-foreground: #965420;
 
-  --popover: oklch(0.99 0.006 70);
-  --popover-foreground: oklch(0.34 0.02 30);
+  --popover: #fbf0e8;
+  --popover-foreground: #965420;
 
-  /* Rosa antigo (dusty rose) */
-  --primary: oklch(0.64 0.058 20);
-  --primary-foreground: oklch(0.98 0.008 60);
+  --primary: #965420;
+  --primary-foreground: #f6e4d4;
 
-  /* Nude */
-  --secondary: oklch(0.92 0.02 45);
-  --secondary-foreground: oklch(0.4 0.03 30);
+  --secondary: #d7bbac;
+  --secondary-foreground: #965420;
 
-  --muted: oklch(0.94 0.014 50);
-  --muted-foreground: oklch(0.52 0.02 30);
+  --muted: #d7bbac;
+  --muted-foreground: #965420;
 
-  /* Terracota suave / nude escuro */
-  --accent: oklch(0.86 0.035 40);
-  --accent-foreground: oklch(0.38 0.03 30);
+  --accent: #d7bbac;
+  --accent-foreground: #965420;
 
   --destructive: oklch(0.577 0.18 25);
 
-  --border: oklch(0.88 0.02 45);
-  --input: oklch(0.88 0.02 45);
-  --ring: oklch(0.64 0.058 20);
+  --border: #d7bbac;
+  --input: #d7bbac;
+  --ring: #965420;
 }
 
 @layer base {

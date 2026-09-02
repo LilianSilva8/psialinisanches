@@ -44,19 +44,27 @@ export default function SobrePage() {
             </div>
           </div>
           <div className="space-y-5 leading-relaxed text-muted-foreground">
-            <p>
-              Minha história com a psicanálise nasceu de uma inquietação profunda: entender o que nos
-              move, o que nos machuca e o que nos liberta. Foi essa busca que me trouxe até a clínica
-              e que sustenta o meu compromisso com cada pessoa que atendo.
+            <p className="font-serif text-2xl text-foreground">
+              Formação Continuada em Psicanálise | PUC-SP
             </p>
             <p>
-              Acredito que ninguém deveria carregar suas dores em silêncio. No espaço analítico, a
-              palavra ganha lugar, e aquilo que antes parecia confuso começa a fazer sentido. Meu
-              papel é oferecer uma escuta atenta, sem pressa e sem julgamentos.
+              Minha trajetória é construída pela escuta, pelo estudo contínuo e pelo compromisso com
+              a singularidade de cada pessoa.
             </p>
             <p>
-              Trabalho com adultos que desejam compreender suas emoções, reconstruir a autoestima e
-              viver relações mais saudáveis — consigo mesmos e com o mundo ao redor.
+              Acredito que compreender a própria história pode abrir caminhos para viver o presente
+              com mais consciência e construir novas possibilidades para o futuro.
+            </p>
+            <p>
+              Meu encontro com a psicanálise nasceu do desejo de compreender a experiência humana em
+              sua singularidade. Desde então, sigo construindo esse percurso por meio do estudo
+              contínuo, da prática clínica, da supervisão e da minha própria análise, compreendendo
+              que a formação de um psicanalista é um processo permanente.
+            </p>
+            <p>
+              Ofereço um espaço de escuta ética, acolhedora e livre de julgamentos, onde cada pessoa
+              possa falar sobre sua história, elaborar suas experiências e construir novos sentidos
+              para aquilo que vive.
             </p>
           </div>
         </div>
@@ -95,7 +103,7 @@ export default function SobrePage() {
       {/* Citação */}
       <section className="mx-auto max-w-4xl px-5 py-20 text-center md:px-8 md:py-28">
         <p className="text-balance font-serif text-2xl italic leading-relaxed text-primary md:text-3xl">
-          &ldquo;Transformar a dor em palavra é o primeiro passo para transformar a própria vida.&rdquo;
+          &ldquo;Olhar para trás pode permitir que olhemos para frente de outra maneira.&rdquo;
         </p>
         <p className="mt-6 text-sm uppercase tracking-[0.3em] text-muted-foreground">Alini Sanches</p>
       </section>

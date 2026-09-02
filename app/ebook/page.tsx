@@ -12,18 +12,18 @@ import {
 import { CheckoutButton } from '@/components/checkout-button'
 
 export const metadata: Metadata = {
-  title: 'Ebook: Autoestima e Autoconhecimento | Alini Sanches',
+  title: 'Ebook: Compreender o Passado Para Transformar o Presente com Consciência | Alini Sanches',
   description:
-    'Um guia sensível e prático para reconstruir sua autoestima e viver uma relação mais gentil com você mesma. Por Alini Sanches, psicanalista.',
+    'Nossa história influencia emoções, escolhas e relações, mas compreendê-la permite questionar repetições, escutar desejos e construir novas formas de viver o presente. Por Alini Sanches, psicanalista.',
 }
 
 const beneficios = [
-  'Compreender de onde vêm suas inseguranças e crenças limitantes',
-  'Reconstruir a relação que você tem consigo mesma',
-  'Desenvolver um olhar mais gentil e amoroso sobre si',
-  'Lidar com a autocrítica e o excesso de cobrança',
-  'Reconhecer o seu valor sem depender da aprovação dos outros',
-  'Criar hábitos que sustentam a sua autoestima no dia a dia',
+  'Compreender melhor a própria história',
+  'dentificar padrões e repetições',
+  'Desenvolver o autoconhecimento',
+  'efletir sobre as próprias escolhas',
+  'Aprender a escutar as próprias emoções e desejos',
+  'Construir novas formas de viver o presente',
 ]
 
 const capitulos = [

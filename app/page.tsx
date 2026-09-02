@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import Link from 'next/link'
-import { ArrowRight, Heart, Leaf, MessageCircleHeart, Quote, Users, Video } from 'lucide-react'
+import { ArrowRight, CalendarClock, Heart, Leaf, MessageCircleHeart, Quote, Users, Video } from 'lucide-react'
 
 export default function HomePage() {
   return (
@@ -13,13 +13,11 @@ export default function HomePage() {
               Psicanálise clínica
             </span>
             <h1 className="mt-6 text-balance font-serif text-4xl leading-[1.1] text-foreground md:text-6xl">
-              Um encontro com quem você
-              <span className="italic text-primary"> realmente é</span>
+              Compreender sua história pode transformar a forma como você vive o presente
             </h1>
             <p className="mt-6 max-w-md text-pretty leading-relaxed text-muted-foreground">
-              Acredito na força transformadora da escuta. Aqui você encontra um espaço seguro para
-              olhar para dentro, compreender suas emoções e construir uma relação mais gentil com
-              você mesma.
+              Um espaço de escuta para compreender o que você sente, elaborar suas experiências e
+              construir uma vida mais consciente.
             </p>
             <div className="mt-8 flex flex-wrap items-center gap-4">
               <Link
@@ -54,13 +52,43 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Faixa de valores */}
+      {/* Faixa sobre psicanálise */}
+      <section className="bg-primary text-primary-foreground">
+        <div className="mx-auto max-w-4xl px-5 py-8 text-center md:px-8 md:py-10">
+          <p className="text-pretty text-base leading-relaxed">
+            A psicanálise oferece um espaço de escuta ética e acolhedora para compreender sua
+            história, elaborar conflitos e refletir sobre como suas experiências influenciam seus
+            sentimentos, escolhas e relacionamentos. Cada processo analítico é único e respeita o
+            tempo, a história e a singularidade de cada pessoa.
+          </p>
+        </div>
+      </section>
+
+      {/* Como funciona */}
+      <section className="mx-auto max-w-6xl px-5 py-14 text-center md:px-8 md:py-16">
+        <h2 className="font-serif text-3xl text-foreground md:text-4xl">Como funciona?</h2>
+        <p className="mt-3 text-sm leading-relaxed text-muted-foreground">Começar é simples</p>
+      </section>
+
+      {/* Etapas do processo */}
       <section className="border-y border-border/60 bg-card">
         <div className="mx-auto grid max-w-6xl gap-8 px-5 py-12 md:grid-cols-3 md:px-8">
           {[
-            { icon: Heart, title: 'Acolhimento', text: 'Um espaço sem julgamentos, no seu tempo e do seu jeito.' },
-            { icon: Leaf, title: 'Autoconhecimento', text: 'Ferramentas para compreender suas emoções e histórias.' },
-            { icon: MessageCircleHeart, title: 'Escuta genuína', text: 'A palavra como caminho de cura e transformação.' },
+            {
+              icon: CalendarClock,
+              title: 'Agende um horário',
+              text: 'Escolha o dia e o horário que forem mais convenientes para você.',
+            },
+            {
+              icon: MessageCircleHeart,
+              title: 'Primeiro contato',
+              text: 'Um encontro inicial de aproximadamente 30 minutos para nos conhecermos, compreender sua demanda, esclarecer dúvidas sobre o processo analítico e apresentar como desenvolvo meu trabalho.',
+            },
+            {
+              icon: Leaf,
+              title: 'Início do processo',
+              text: 'Após esse primeiro contato, caso faça sentido iniciar a análise, definiremos juntos a frequência, os horários e o formato dos atendimentos.',
+            },
           ].map((item) => (
             <div key={item.title} className="flex items-start gap-4">
               <span className="flex size-11 shrink-0 items-center justify-center rounded-full bg-secondary text-primary">
@@ -87,9 +115,8 @@ export default function HomePage() {
             />
           </div>
           <div>
-            <span className="text-xs uppercase tracking-[0.3em] text-primary">Prazer, sou a Alini</span>
-            <h2 className="mt-4 text-balance font-serif text-3xl leading-tight text-foreground md:text-4xl">
-              A psicanálise como um convite ao encontro com você
+            <h2 className="text-balance font-serif text-3xl leading-tight text-foreground md:text-4xl">
+              Alini Sanches | Psicanalista
             </h2>
             <p className="mt-6 leading-relaxed text-muted-foreground">
               Ao longo da minha trajetória, acompanhei pessoas em busca de sentido, de alívio para a
