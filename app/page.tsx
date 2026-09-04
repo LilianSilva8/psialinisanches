@@ -119,13 +119,16 @@ export default function HomePage() {
               Alini Sanches | Psicanalista
             </h2>
             <p className="mt-6 leading-relaxed text-muted-foreground">
-              Ao longo da minha trajetória, acompanhei pessoas em busca de sentido, de alívio para a
-              angústia e de uma vida mais leve. Meu trabalho é feito de presença, respeito e escuta
-              cuidadosa — porque acredito que toda dor merece ser ouvida.
+              Cada pessoa chega ao consultório trazendo uma trajetória única, marcada por experiências, 
+              relações, escolhas e questões que nem sempre encontram palavras.
             </p>
             <p className="mt-4 leading-relaxed text-muted-foreground">
-              Cada processo é único. Juntas, vamos costurar sentidos para aquilo que hoje parece
-              confuso e reencontrar a sua própria voz.
+Na psicanálise, não há respostas prontas. O processo acontece por meio da fala e da escuta, permitindo que
+ novos sentidos sejam construídos ao longo da análise.
+            </p>
+                        <p className="mt-4 leading-relaxed text-muted-foreground">
+Atendo crianças, adolescentes, adultos e casais, nas modalidades online e presencial. Cada atendimento é 
+conduzido com respeito ao tempo, à história e à singularidade de quem busca esse espaço.
             </p>
             <Link
               href="/sobre"
@@ -150,7 +153,7 @@ export default function HomePage() {
             {[
               { icon: Video, title: 'Sessões online', text: 'Atendimento individual por videochamada, com o mesmo cuidado de perto — de onde você estiver.' },
               { icon: Heart, title: 'Atendimento presencial', text: 'Encontros presenciais em um ambiente acolhedor, reservado e seguro para a sua escuta.' },
-              { icon: Users, title: 'Grupos terapêuticos', text: 'Encontros em grupo para partilhar, pertencer e crescer no encontro com o outro.' },
+              { icon: Users, title: 'Terapia de Casal', text: 'Reconexão de parceiros, melhora da comunicação e fortalecimmento do vínculo, transformando crises em oportunidades de evolução conjunta.' },
             ].map((s) => (
               <div
                 key={s.title}
@@ -183,11 +186,12 @@ export default function HomePage() {
               Novo ebook
             </span>
             <h2 className="mt-4 text-balance font-serif text-3xl leading-tight md:text-4xl">
-              Reencontre sua autoestima e o amor por si mesma
+              Compreender sua história pode transformar seu presente.
             </h2>
             <p className="mt-5 leading-relaxed text-primary-foreground/85">
-              Um guia sensível e prático sobre autoestima e autoconhecimento, para você transformar a
-              relação que tem consigo mesma e viver com mais leveza.
+Este e-book é um convite sensível da psicanálise para você olhar para suas repetições, 
+ansiedades e autocobranças com menos julgamento e mais curiosidade. Permita-se fazer uma pausa, 
+escutar seus silêncios e descobrir novos caminhos para se relacionar consigo e com o outro.
             </p>
             <Link
               href="/ebook"
@@ -218,9 +222,9 @@ export default function HomePage() {
           </div>
           <div className="mt-14 grid gap-6 md:grid-cols-3">
             {[
-              { text: 'Encontrei um espaço onde finalmente pude ser eu mesma. A escuta da Alini mudou a forma como me enxergo.', name: 'M. L.' },
-              { text: 'Cada sessão me trouxe mais clareza. Hoje entendo minhas emoções e sei lidar com elas com carinho.', name: 'R. S.' },
-              { text: 'O acolhimento é genuíno. Saí de cada encontro me sentindo mais leve e mais viva.', name: 'C. A.' },
+              { text: 'Alini sempre maravilhosa! Me ajudou muito com meu processo de cura, me perceber melhor, me conhecer e entender o que me causava tanta ansiedade', name: 'Jaqueline. F.' },
+              { text: 'Alini é uma excelente profissional. Muito competente e atenciosa em seus atendimentos. Paciente e educada, sabe acolher e conduz muito bem o tratamento. Fiquei satisfeita com seu trabalho e pretendo retornar em breve.', name: 'Paula. F.' },
+              { text: 'Muito bom, as conversas me ajudaram a repensar a minha vida pessoal, o quanto não somos perfeitos e que a cada dia podemos mudar se acreditarmos em nós mesmos.', name: 'Felipe. L.' },
             ].map((t) => (
               <figure key={t.name} className="rounded-3xl border border-border/60 bg-background p-8">
                 <Quote className="size-7 text-primary/50" />
@@ -236,7 +240,7 @@ export default function HomePage() {
       <section className="relative overflow-hidden bg-secondary/50">
         <div className="mx-auto max-w-3xl px-5 py-20 text-center md:px-8 md:py-28">
           <h2 className="text-balance font-serif text-3xl leading-tight text-foreground md:text-5xl">
-            Você não precisa atravessar isso sozinha
+            Você não precisa atravessar isso sozinho
           </h2>
           <p className="mx-auto mt-5 max-w-xl text-pretty leading-relaxed text-muted-foreground">
             Dê o primeiro passo em direção ao seu bem-estar. Estou aqui para caminhar ao seu lado.

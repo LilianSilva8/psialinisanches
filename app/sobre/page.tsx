@@ -83,7 +83,7 @@ export default function SobrePage() {
             {[
               { icon: HeartHandshake, title: 'Vínculo e confiança', text: 'A relação terapêutica é o coração do processo. Construímos um espaço seguro para você se abrir no seu tempo.' },
               { icon: Feather, title: 'Escuta sem julgamentos', text: 'Cada história é única e merece ser ouvida com respeito, delicadeza e presença genuína.' },
-              { icon: Compass, title: 'Sentido e direção', text: 'Juntas, damos nome àquilo que você sente e encontramos caminhos possíveis para seguir.' },
+              { icon: Compass, title: 'Sentido e direção', text: 'Juntos, damos nome àquilo que você sente e encontramos caminhos possíveis para seguir.' },
               { icon: BookOpen, title: 'Base psicanalítica', text: 'Fundamento minha prática na teoria psicanalítica, sempre atualizada e a serviço de você.' },
             ].map((p) => (
               <div key={p.title} className="flex items-start gap-5 rounded-3xl border border-border/60 bg-background p-7">
@@ -103,7 +103,7 @@ export default function SobrePage() {
       {/* Citação */}
       <section className="mx-auto max-w-4xl px-5 py-20 text-center md:px-8 md:py-28">
         <p className="text-balance font-serif text-2xl italic leading-relaxed text-primary md:text-3xl">
-          &ldquo;Olhar para trás pode permitir que olhemos para frente de outra maneira.&rdquo;
+          &ldquo;Nós somos maiores do que os acontecimentos que nos atravessam.&rdquo;
         </p>
         <p className="mt-6 text-sm uppercase tracking-[0.3em] text-muted-foreground">Alini Sanches</p>
       </section>

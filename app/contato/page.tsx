@@ -10,7 +10,7 @@ export const metadata: Metadata = {
 
 export default function ContatoPage() {
   return (
-    <>npm startnpm start
+    <>
       {/* Cabeçalho */}
       <section className="bg-secondary/40">
         <div className="mx-auto max-w-3xl px-5 py-16 text-center md:px-8 md:py-24">

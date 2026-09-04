@@ -12,7 +12,7 @@ import {
 import { CheckoutButton } from '@/components/checkout-button'
 
 export const metadata: Metadata = {
-  title: 'Ebook: Compreender o Passado Para Transformar o Presente com Consciência | Alini Sanches',
+  title: 'Ebook: Compreender para Transformar: Um novo olhar a partir da psicanálise | Alini Sanches',
   description:
     'Nossa história influencia emoções, escolhas e relações, mas compreendê-la permite questionar repetições, escutar desejos e construir novas formas de viver o presente. Por Alini Sanches, psicanalista.',
 }
@@ -45,16 +45,16 @@ export default function EbookPage() {
               <Sparkles className="size-3.5" /> Ebook exclusivo
             </span>
             <h1 className="mt-6 text-balance font-serif text-4xl leading-[1.1] text-foreground md:text-5xl">
-              Reencontre a sua autoestima e o amor por si mesma
+              Compreender para Transformar: Um novo olhar a partir da psicanálise
             </h1>
             <p className="mt-6 max-w-md text-pretty leading-relaxed text-muted-foreground">
-              Um guia sensível e prático, escrito por uma psicanalista, para você transformar a
-              relação que tem consigo mesma e viver com mais leveza, confiança e liberdade.
+              Um convite à reflexão, escrito por uma psicanalista, para você compreender sua história, 
+              escutar seus desejos e construir novas formas de viver o presente.
             </p>
 
             <div className="mt-8 flex flex-wrap items-center gap-x-6 gap-y-3 text-sm text-muted-foreground">
               <span className="flex items-center gap-2"><BookOpenCheck className="size-4 text-primary" /> Leitura leve e acolhedora</span>
-              <span className="flex items-center gap-2"><Heart className="size-4 text-primary" /> Exercícios práticos</span>
+              <span className="flex items-center gap-2"><Heart className="size-4 text-primary" /> Reflexões sobre experiências passadas</span>
             </div>
 
             <div className="mt-9">
@@ -86,10 +86,10 @@ export default function EbookPage() {
         </h2>
         <div className="mt-12 grid gap-5 text-left sm:grid-cols-2">
           {[
-            'Sente que nunca é boa o suficiente, por mais que se esforce.',
+            'Sente que nunca é bom o suficiente, por mais que se esforce.',
             'Depende da aprovação dos outros para se sentir bem.',
             'Vive se comparando e se cobrando em excesso.',
-            'Tem dificuldade de reconhecer suas próprias qualidades.',
+            'Sente que precisa da aprovação dos outros para reconhecer o próprio valor.',
           ].map((dor) => (
             <div key={dor} className="flex items-start gap-3 rounded-2xl border border-border/60 bg-card p-6">
               <Heart className="mt-0.5 size-5 shrink-0 text-primary" />
@@ -98,7 +98,7 @@ export default function EbookPage() {
           ))}
         </div>
         <p className="mx-auto mt-10 max-w-xl text-pretty leading-relaxed text-muted-foreground">
-          Se você respondeu sim a alguma delas, saiba que não está sozinha — e que é possível
+          Se você respondeu sim a alguma delas, saiba que não está sozinho — e que é possível
           reescrever essa história. Este ebook é o convite para esse novo começo.
         </p>
       </section>
@@ -118,7 +118,7 @@ export default function EbookPage() {
             <div className="order-1 md:order-2">
               <span className="text-xs uppercase tracking-[0.3em] text-primary">O que você vai conquistar</span>
               <h2 className="mt-4 text-balance font-serif text-3xl leading-tight text-foreground md:text-4xl">
-                Uma nova relação com você mesma
+                Uma nova relação com você mesmo
               </h2>
               <ul className="mt-8 space-y-4">
                 {beneficios.map((b) => (
@@ -140,7 +140,7 @@ export default function EbookPage() {
         <div className="mx-auto max-w-2xl text-center">
           <span className="text-xs uppercase tracking-[0.3em] text-primary">O que tem dentro</span>
           <h2 className="mt-4 font-serif text-3xl leading-tight text-foreground md:text-4xl">
-            Uma jornada em 5 capítulos
+            Uma jornada em 6 capítulos
           </h2>
         </div>
         <div className="mt-14 space-y-4">
@@ -170,9 +170,9 @@ export default function EbookPage() {
           </div>
           <div className="mt-14 grid gap-6 md:grid-cols-3">
             {[
-              { text: 'Li em um final de semana e chorei em vários trechos. Foi como se a Alini estivesse falando diretamente comigo.', name: 'Juliana P.' },
-              { text: 'Os exercícios me ajudaram a enxergar padrões que eu repetia há anos. Recomendo de olhos fechados.', name: 'Fernanda R.' },
-              { text: 'Um material delicado e profundo ao mesmo tempo. Mudou a forma como eu falo comigo mesma.', name: 'Camila T.' },
+              { text: 'Alini sempre maravilhosa! Me ajudou muito com meu processo de cura e a me perceber melhor, conhecer e entender o que me causava tanta ansiedade.', name: 'Jaqueline F.' },
+              { text: 'Profissional bem atenciosa e disponível. Foi a primeira vez que precisei de serviços dessa área, achei que me sentiria desconfortável, mas a Alini é super gentil e paciente.', name: 'Gabrielly N.' },
+              { text: 'Muito bom, as conversas me ajudaram sobre minha vida pessoal e o quanto não somos perfeitos. E que cada dia podemos mudar se acreditarmos em nós mesmos.', name: 'Felipe L.' },
             ].map((t) => (
               <figure key={t.name} className="rounded-3xl border border-border/60 bg-card p-8">
                 <div className="flex gap-1 text-primary">
@@ -196,7 +196,7 @@ export default function EbookPage() {
           </div>
           <div className="px-6 py-12 md:px-12">
             <h2 className="font-serif text-3xl text-foreground md:text-4xl">
-              Autoestima & Autoconhecimento
+              Compreender para Transformar
             </h2>
             <p className="mt-3 leading-relaxed text-muted-foreground">
               Ebook digital em PDF, acesso imediato e vitalício após a compra.
@@ -232,7 +232,7 @@ export default function EbookPage() {
           </h2>
           <p className="max-w-xl text-pretty leading-relaxed text-muted-foreground">
             Se dentro de 7 dias você sentir que o ebook não é para você, basta solicitar o reembolso
-            e devolvemos 100% do seu investimento. O risco é todo meu.
+            através da plataforma Hotmart e devolvemos 100% do seu investimento.
           </p>
         </div>
       </section>
@@ -271,11 +271,11 @@ export default function EbookPage() {
       <section className="bg-primary text-primary-foreground">
         <div className="mx-auto max-w-3xl px-5 py-20 text-center md:px-8 md:py-28">
           <h2 className="text-balance font-serif text-3xl leading-tight md:text-5xl">
-            Sua nova relação com você começa hoje
+            Um novo olhar sobre você começa hoje
           </h2>
           <p className="mx-auto mt-5 max-w-xl text-pretty leading-relaxed text-primary-foreground/85">
-            Dê a si mesma o presente do autoconhecimento. Comece agora a caminhada rumo a uma vida
-            mais leve e cheia de amor-próprio.
+            Dê a si mesmo o espaço para compreender a sua história. Comece agora uma jornada de reflexão, escuta
+            e novas possibilidades para viver o presente
           </p>
           <div className="mt-9">
             <CheckoutButton
