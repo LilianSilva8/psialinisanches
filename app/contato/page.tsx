@@ -5,12 +5,12 @@ import { ContatoForm } from '@/components/contato-form'
 export const metadata: Metadata = {
   title: 'Contato | Alini Sanches',
   description:
-    'Agende sua sessão de psicanálise com Alini Sanches. Atendimento online, presencial e em grupo.',
+    'Agende sua sessão de psicanálise com Alini Sanches. Atendimento online ou presencial.',
 }
 
 export default function ContatoPage() {
   return (
-    <>
+    <>npm startnpm start
       {/* Cabeçalho */}
       <section className="bg-secondary/40">
         <div className="mx-auto max-w-3xl px-5 py-16 text-center md:px-8 md:py-24">
@@ -19,7 +19,7 @@ export default function ContatoPage() {
             Vamos conversar
           </h1>
           <p className="mx-auto mt-5 max-w-xl text-pretty leading-relaxed text-muted-foreground">
-            Dar o primeiro passo pode parecer difícil, mas você não precisa fazer isso sozinha.
+            Dar o primeiro passo pode parecer difícil, mas você não precisa fazer isso sozinho.
             Envie uma mensagem e responderei com todo o cuidado.
           </p>
         </div>
@@ -40,9 +40,9 @@ export default function ContatoPage() {
 
             <div className="mt-10 space-y-6">
               {[
-                { icon: MessageCircle, label: 'WhatsApp', value: 'Envie uma mensagem', href: 'https://wa.me/5500000000000' },
-                { icon: Mail, label: 'E-mail', value: 'contato@alinisanches.com.br', href: 'mailto:contato@alinisanches.com.br' },
-                { icon: Camera, label: 'Instagram', value: '@psi.alinisanches', href: 'https://instagram.com/psi.alinisanches' },
+                { icon: MessageCircle, label: 'WhatsApp', value: 'Envie uma mensagem', href: 'https://api.whatsapp.com/send/?phone=5511919931336&text=Ol%C3%A1%21+Gostaria+de+saber+mais+informa%C3%A7%C3%B5es+sobre+os+atendimentos+e+sess%C3%B5es+de+psican%C3%A1lise.+&type=phone_number&app_absent=0' },
+                { icon: Mail, label: 'E-mail', value: 'psi.alinisanches@gmail.com', href: 'mailto:psi.alinisanches@gmail.com' },
+                { icon: Camera, label: 'Instagram', value: '@psi.alinisanches', href: 'https://www.instagram.com/psi.alinisanches/' },
               ].map((c) => (
                 <a
                   key={c.label}

@@ -41,7 +41,7 @@ export function SiteFooter() {
               </li>
               <li>
                 <a
-                  href="https://wa.me/5500000000000"
+                  href="https://api.whatsapp.com/send/?phone=5511919931336&text=Ol%C3%A1%21+Gostaria+de+saber+mais+informa%C3%A7%C3%B5es+sobre+os+atendimentos+e+sess%C3%B5es+de+psican%C3%A1lise.+&type=phone_number&app_absent=0"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-2 transition-colors hover:text-primary"
@@ -51,10 +51,10 @@ export function SiteFooter() {
               </li>
               <li>
                 <a
-                  href="mailto:contato@alinisanches.com.br"
+                  href="mailto:psi.alinisanches@gmail.com"
                   className="flex items-center gap-2 transition-colors hover:text-primary"
                 >
-                  <Mail className="size-4" /> contato@alinisanches.com.br
+                  <Mail className="size-4" /> psi.alinisanches@gmail.com
                 </a>
               </li>
             </ul>
