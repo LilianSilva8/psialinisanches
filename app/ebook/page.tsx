@@ -102,7 +102,6 @@ export default function EbookPage() {
           reescrever essa história. Este ebook é o convite para esse novo começo.
         </p>
       </section>
-
       {/* O que você vai conquistar */}
       <section className="bg-card">
         <div className="mx-auto max-w-6xl px-5 py-20 md:px-8 md:py-28">

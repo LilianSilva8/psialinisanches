@@ -106,7 +106,7 @@ export default function ServicosPage() {
       <section className="bg-secondary/50">
         <div className="mx-auto max-w-3xl px-5 py-20 text-center md:px-8 md:py-24">
           <h2 className="text-balance font-serif text-3xl leading-tight text-foreground md:text-4xl">
-            Pronta para começar?
+            Pronto para começar?
           </h2>
           <p className="mx-auto mt-4 max-w-lg leading-relaxed text-muted-foreground">
             Ainda tem dúvidas sobre qual atendimento é o ideal para você? Vamos conversar.
