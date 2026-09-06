@@ -27,11 +27,12 @@ const beneficios = [
 ]
 
 const capitulos = [
-  { n: '01', title: 'O que é, de verdade, autoestima', text: 'Desmistificando o conceito e entendendo suas raízes na sua história.' },
-  { n: '02', title: 'As vozes que te aprisionam', text: 'Como identificar a autocrítica e as crenças que sabotam o seu valor.' },
-  { n: '03', title: 'O reencontro com você', text: 'Exercícios de autoconhecimento para olhar para dentro com coragem.' },
-  { n: '04', title: 'Amor-próprio na prática', text: 'Ferramentas concretas para cultivar uma relação mais gentil consigo.' },
-  { n: '05', title: 'Sustentando a mudança', text: 'Como manter viva a sua transformação e seguir florescendo.' },
+  { n: '01', title: 'Nossa história fala sobre quem somos', text: 'Compreendendo como as expectativas e os silêncios da infância moldam a nossa imagem atual.' },
+  { n: '02', title: 'Quando a ansiedade e a angústia aparecem', text: 'O entendimento de que o sintoma e o controle excessivo tentam nos dizer algo que as palavras não dão conta.' },
+  { n: '03', title: 'Por que repetimos o que nos faz sofrer?', text: 'Uma investigação sobre os motivos de revivermos dinâmicas dolorosas apenas por serem familiares e conhecidas.' },
+  { n: '04', title: 'Nossos relacionamentos e os lugares que ocupamos', text: 'A descoberta de como projetamos nossos medos no outro e a importância de colocar limites sem desaparecer.' },
+  { n: '05', title: 'Autoestima, autocobrança e a relação consigo', text: 'A desmistificação da autoestima comercial para aprender a acolher os próprios erros sem transformá-los em identidade.' },
+  { n: '06', title: 'Escutar a própria história', text: 'O movimento de pausar o ritmo da vida para revisitar o passado com novos olhos e novos sentidos.' },
 ]
 
 export default function EbookPage() {
@@ -162,7 +163,7 @@ export default function EbookPage() {
       <section className="bg-secondary/40">
         <div className="mx-auto max-w-6xl px-5 py-20 md:px-8 md:py-28">
           <div className="mx-auto max-w-2xl text-center">
-            <span className="text-xs uppercase tracking-[0.3em] text-primary">Quem já leu</span>
+            <span className="text-xs uppercase tracking-[0.3em] text-primary">Avaliações</span>
             <h2 className="mt-4 font-serif text-3xl leading-tight text-foreground md:text-4xl">
               Transformações reais
             </h2>
@@ -202,10 +203,10 @@ export default function EbookPage() {
             </p>
 
             <div className="mt-8 flex items-end justify-center gap-2">
-              <span className="text-lg text-muted-foreground line-through">R$ 67</span>
-              <span className="font-serif text-6xl leading-none text-primary">R$ 37</span>
+              <span className="text-lg text-muted-foreground line-through">R$ 71</span>
+              <span className="font-serif text-6xl leading-none text-primary">R$ 44</span>
             </div>
-            <p className="mt-2 text-sm text-muted-foreground">ou em até 3x no cartão</p>
+            <p className="mt-2 text-sm text-muted-foreground">ou em até 2x no cartão</p>
 
             <div className="mt-9">
               <CheckoutButton label="Comprar agora pelo Hotmart" />
