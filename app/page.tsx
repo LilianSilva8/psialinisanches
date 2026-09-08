@@ -16,7 +16,8 @@ export default function HomePage() {
               Compreender sua história pode transformar a forma como você vive o presente
             </h1>
             <p className="mt-6 max-w-md text-pretty leading-relaxed text-muted-foreground">
-Um espaço de escuta para compreender o que você sente, elaborar suas experiências e construir novas possibilidades para a forma como você vive e se relaciona.
+              Um espaço de escuta para compreender o que você sente, elaborar suas experiências e construir novas 
+              possibilidades para a forma como você vive e se relaciona.
             </p>
             <div className="mt-8 flex flex-wrap items-center gap-4">
               <Link
@@ -55,7 +56,10 @@ Um espaço de escuta para compreender o que você sente, elaborar suas experiên
       <section className="bg-primary text-primary-foreground">
         <div className="mx-auto max-w-4xl px-5 py-8 text-center md:px-8 md:py-10">
           <p className="text-pretty text-base leading-relaxed">
-            A psicanálise oferece um espaço de escuta para aquilo que, muitas vezes, é difícil nomear. Um percurso para compreender sua história, elaborar conflitos e reconhecer como suas experiências atravessam seus sentimentos, escolhas e relações. Cada processo é único e respeita o tempo e a singularidade de cada pessoa.
+            A psicanálise oferece um espaço de escuta para aquilo que, muitas vezes, é difícil nomear. 
+            Um percurso para compreender sua história, elaborar conflitos e reconhecer como suas experiências 
+            atravessam seus sentimentos, escolhas e relações. Cada processo é único e respeita o tempo e a 
+            singularidade de cada pessoa.
           </p>
         </div>
       </section>
@@ -73,17 +77,17 @@ Um espaço de escuta para compreender o que você sente, elaborar suas experiên
             {
               icon: CalendarClock,
               title: 'Agende um horário',
-              text: 'Escolha o dia e o horário que forem mais convenientes para você.',
+              text: 'Escolha o dia e o horário que forem mais adequados para você.',
             },
             {
               icon: MessageCircleHeart,
               title: 'Primeiro contato',
-              text: 'Um encontro inicial de aproximadamente 30 minutos para nos conhecermos, compreender sua demanda, esclarecer dúvidas sobre o processo analítico e apresentar como desenvolvo meu trabalho.',
+              text: 'Um encontro inicial para nos conhecermos, compreender o que motivou sua busca pela análise e esclarecer dúvidas sobre o processo.',
             },
             {
               icon: Leaf,
               title: 'Início do processo',
-              text: 'Após esse primeiro contato, caso faça sentido iniciar a análise, definiremos juntos a frequência, os horários e o formato dos atendimentos.',
+              text: 'A partir desse primeiro encontro, caso faça sentido para você, definimos a frequência e o formato dos atendimentos.',
             },
           ].map((item) => (
             <div key={item.title} className="flex items-start gap-4">
@@ -99,42 +103,55 @@ Um espaço de escuta para compreender o que você sente, elaborar suas experiên
         </div>
       </section>
 
-      {/* Apresentação */}
-      <section className="mx-auto max-w-6xl px-5 py-20 md:px-8 md:py-28">
-        <div className="grid items-center gap-12 md:grid-cols-2">
-          <div className="relative aspect-[4/5] w-full max-w-md overflow-hidden rounded-[2rem] shadow-lg shadow-primary/10">
-            <Image
-              src="/images/alini-sobre.png"
-              alt="Alini Sanches em seu espaço de atendimento"
-              fill
-              className="object-cover"
-            />
-          </div>
-          <div>
-            <h2 className="text-balance font-serif text-3xl leading-tight text-foreground md:text-4xl">
-              Alini Sanches | Psicanalista
-            </h2>
-            <p className="mt-6 leading-relaxed text-muted-foreground">
-              Cada pessoa chega ao consultório trazendo uma trajetória única, marcada por experiências, 
-              relações, escolhas e questões que nem sempre encontram palavras.
-            </p>
-            <p className="mt-4 leading-relaxed text-muted-foreground">
-Na psicanálise, não há respostas prontas. O processo acontece por meio da fala e da escuta, permitindo que
- novos sentidos sejam construídos ao longo da análise.
-            </p>
-                        <p className="mt-4 leading-relaxed text-muted-foreground">
-Atendo crianças, adolescentes, adultos e casais, nas modalidades online e presencial. Cada atendimento é 
-conduzido com respeito ao tempo, à história e à singularidade de quem busca esse espaço.
-            </p>
-            <Link
-              href="/sobre"
-              className="mt-8 inline-flex items-center gap-2 text-sm font-medium text-primary transition-all hover:gap-3"
-            >
-              Conheça minha história <ArrowRight className="size-4" />
-            </Link>
-          </div>
-        </div>
+      <section className="mx-auto max-w-6xl px-5 pt-6 pb-14 text-center md:px-8 md:pt-8 md:pb-16">
+        <h2 className="font-serif text-base text-foreground md:text-lg">Os atendimentos são conduzidos com ética, 
+        respeito à singularidade e confidencialidade.</h2>
       </section>
+
+      <section className="mx-auto max-w-6xl px-5 py-14 text-center md:px-8 md:py-16">
+        <h2 className="font-serif text-3xl text-foreground md:text-4xl">Quando buscar análise?</h2>
+        <p className="mt-3 text-sm leading-relaxed text-muted-foreground">A análise pode ser procurada quando algo 
+        causa sofrimento, se repete ou parece difícil de compreender. Ansiedade, conflitos nos relacionamentos, 
+        angústias, perdas, mudanças, dificuldades nas escolhas ou questões que nem sempre conseguem ser nomeadas 
+        podem encontrar na análise um espaço de escuta e elaboração.</p>
+      </section>
+
+      {/* Apresentação */}
+<section className="mx-auto max-w-6xl px-5 py-20 md:px-8 md:py-28">
+  <div className="grid items-center gap-12 md:grid-cols-2">
+    <div className="relative aspect-[4/5] w-full max-w-md overflow-hidden rounded-[2rem] shadow-lg shadow-primary/10">
+      <Image
+        src="/images/alini-sobre.png"
+        alt="Alini Sanches em seu espaço de atendimento"
+        fill
+        className="object-cover"
+      />
+    </div>
+    <div>
+      <h2 className="text-balance font-serif text-3xl leading-tight text-foreground md:text-4xl">
+        Alini Sanches | Psicanalista
+      </h2>
+      <p className="mt-6 leading-relaxed text-muted-foreground">
+        Cada pessoa chega à análise trazendo uma história singular, atravessada por experiências,
+        relações, escolhas, conflitos e questões que nem sempre encontram palavras.
+      </p>
+      <p className="mt-4 leading-relaxed text-muted-foreground">
+        Na psicanálise, não há respostas prontas. É por meio da fala e da escuta que aquilo que se repete, 
+        inquieta ou causa sofrimento pode ganhar novos sentidos ao longo do processo.
+      </p>
+      <p className="mt-4 leading-relaxed text-muted-foreground">
+        Atendo crianças, adolescentes, adultos e casais, nas modalidades online e presencial. 
+        Cada atendimento é conduzido respeitando o tempo, a história e a singularidade de quem chega até esse espaço.
+      </p>
+      <Link
+        href="/sobre"
+        className="mt-8 inline-flex items-center gap-2 text-sm font-medium text-primary transition-all hover:gap-3"
+      >
+        Conheça minha trajetória <ArrowRight className="size-4" />
+      </Link>
+    </div>
+  </div>
+</section>
 
       {/* Serviços */}
       <section className="bg-secondary/40">
@@ -142,12 +159,12 @@ conduzido com respeito ao tempo, à história e à singularidade de quem busca e
           <div className="mx-auto max-w-2xl text-center">
             <span className="text-xs uppercase tracking-[0.3em] text-primary">Como posso ajudar</span>
             <h2 className="mt-4 text-balance font-serif text-3xl leading-tight text-foreground md:text-4xl">
-              Atendimentos pensados para o seu momento
+              Diferentes formas de iniciar seu processo de análise
             </h2>
           </div>
           <div className="mt-14 grid gap-6 md:grid-cols-3">
             {[
-              { icon: Video, title: 'Sessões online', text: 'Atendimento individual por videochamada, com o mesmo cuidado de perto — de onde você estiver.' },
+              { icon: Video, title: 'Atendimento individual online', text: 'Sessões de psicanálise por videochamada, possibilitando a continuidade do processo analítico independentemente de onde você esteja.' },
               { icon: Heart, title: 'Atendimento presencial', text: 'Encontros presenciais em um ambiente acolhedor, reservado e seguro para a sua escuta.' },
               { icon: Users, title: 'Terapia de Casal', text: 'Reconexão de parceiros, melhora da comunicação e fortalecimmento do vínculo, transformando crises em oportunidades de evolução conjunta.' },
             ].map((s) => (
