@@ -16,8 +16,7 @@ export default function HomePage() {
               Compreender sua história pode transformar a forma como você vive o presente
             </h1>
             <p className="mt-6 max-w-md text-pretty leading-relaxed text-muted-foreground">
-              Um espaço de escuta para compreender o que você sente, elaborar suas experiências e
-              construir uma vida mais consciente.
+Um espaço de escuta para compreender o que você sente, elaborar suas experiências e construir novas possibilidades para a forma como você vive e se relaciona.
             </p>
             <div className="mt-8 flex flex-wrap items-center gap-4">
               <Link
@@ -30,7 +29,7 @@ export default function HomePage() {
                 href="/ebook"
                 className="inline-flex items-center gap-2 rounded-full border border-primary/40 px-7 py-3 text-sm font-medium text-primary transition-colors hover:bg-primary/10"
               >
-                Conheça o ebook
+                Conheça meu e-book
               </Link>
             </div>
           </div>
@@ -56,10 +55,7 @@ export default function HomePage() {
       <section className="bg-primary text-primary-foreground">
         <div className="mx-auto max-w-4xl px-5 py-8 text-center md:px-8 md:py-10">
           <p className="text-pretty text-base leading-relaxed">
-            A psicanálise oferece um espaço de escuta ética e acolhedora para compreender sua
-            história, elaborar conflitos e refletir sobre como suas experiências influenciam seus
-            sentimentos, escolhas e relacionamentos. Cada processo analítico é único e respeita o
-            tempo, a história e a singularidade de cada pessoa.
+            A psicanálise oferece um espaço de escuta para aquilo que, muitas vezes, é difícil nomear. Um percurso para compreender sua história, elaborar conflitos e reconhecer como suas experiências atravessam seus sentimentos, escolhas e relações. Cada processo é único e respeita o tempo e a singularidade de cada pessoa.
           </p>
         </div>
       </section>
@@ -67,7 +63,7 @@ export default function HomePage() {
       {/* Como funciona */}
       <section className="mx-auto max-w-6xl px-5 py-14 text-center md:px-8 md:py-16">
         <h2 className="font-serif text-3xl text-foreground md:text-4xl">Como funciona?</h2>
-        <p className="mt-3 text-sm leading-relaxed text-muted-foreground">Começar é simples</p>
+        <p className="mt-3 text-sm leading-relaxed text-muted-foreground">O primeiro passo pode começar pela escuta.</p>
       </section>
 
       {/* Etapas do processo */}
