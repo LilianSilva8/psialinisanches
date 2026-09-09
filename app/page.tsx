@@ -165,8 +165,8 @@ export default function HomePage() {
           <div className="mt-14 grid gap-6 md:grid-cols-3">
             {[
               { icon: Video, title: 'Atendimento individual online', text: 'Sessões de psicanálise por videochamada, possibilitando a continuidade do processo analítico independentemente de onde você esteja.' },
-              { icon: Heart, title: 'Atendimento presencial', text: 'Encontros presenciais em um ambiente acolhedor, reservado e seguro para a sua escuta.' },
-              { icon: Users, title: 'Terapia de Casal', text: 'Reconexão de parceiros, melhora da comunicação e fortalecimmento do vínculo, transformando crises em oportunidades de evolução conjunta.' },
+              { icon: Heart, title: 'Atendimento presencial', text: 'Sessões presenciais em um espaço reservado, destinado à fala, à escuta e à elaboração.' },
+              { icon: Users, title: 'Atendimento de casais', text: 'Um espaço de escuta para compreender os impasses, conflitos e repetições presentes na relação. A partir da fala de cada um, o processo possibilita reconhecer os modos de se relacionar e os sentidos que atravessam o vínculo, favorecendo a elaboração das questões que emergem na relação.' },
             ].map((s) => (
               <div
                 key={s.title}
@@ -202,15 +202,15 @@ export default function HomePage() {
               Compreender sua história pode transformar seu presente.
             </h2>
             <p className="mt-5 leading-relaxed text-primary-foreground/85">
-Este e-book é um convite sensível da psicanálise para você olhar para suas repetições, 
-ansiedades e autocobranças com menos julgamento e mais curiosidade. Permita-se fazer uma pausa, 
-escutar seus silêncios e descobrir novos caminhos para se relacionar consigo e com o outro.
+              Este e-book é um convite à reflexão a partir da psicanálise. Um percurso para olhar para suas repetições, 
+              inquietações e experiências com menos julgamento e mais curiosidade, abrindo espaço para compreender os 
+              sentidos presentes na forma como você se relaciona consigo e com o outro.**
             </p>
             <Link
               href="/ebook"
               className="mt-8 inline-flex items-center gap-2 rounded-full bg-background px-7 py-3 text-sm font-medium text-primary transition-transform hover:scale-[1.02]"
             >
-              Quero conhecer o ebook <ArrowRight className="size-4" />
+              Conheça meu e-book <ArrowRight className="size-4" />
             </Link>
           </div>
           <div className="relative mx-auto aspect-square w-full max-w-sm">
@@ -224,39 +224,14 @@ escutar seus silêncios e descobrir novos caminhos para se relacionar consigo e 
         </div>
       </section>
 
-      {/* Depoimentos */}
-      <section className="bg-card">
-        <div className="mx-auto max-w-6xl px-5 py-20 md:px-8 md:py-28">
-          <div className="mx-auto max-w-2xl text-center">
-            <span className="text-xs uppercase tracking-[0.3em] text-primary">Histórias reais</span>
-            <h2 className="mt-4 font-serif text-3xl leading-tight text-foreground md:text-4xl">
-              O que dizem sobre o processo
-            </h2>
-          </div>
-          <div className="mt-14 grid gap-6 md:grid-cols-3">
-            {[
-              { text: 'Alini sempre maravilhosa! Me ajudou muito com meu processo de cura, me perceber melhor, me conhecer e entender o que me causava tanta ansiedade', name: 'Jaqueline. F.' },
-              { text: 'Alini é uma excelente profissional. Muito competente e atenciosa em seus atendimentos. Paciente e educada, sabe acolher e conduz muito bem o tratamento. Fiquei satisfeita com seu trabalho e pretendo retornar em breve.', name: 'Paula. F.' },
-              { text: 'Muito bom, as conversas me ajudaram a repensar a minha vida pessoal, o quanto não somos perfeitos e que a cada dia podemos mudar se acreditarmos em nós mesmos.', name: 'Felipe. L.' },
-            ].map((t) => (
-              <figure key={t.name} className="rounded-3xl border border-border/60 bg-background p-8">
-                <Quote className="size-7 text-primary/50" />
-                <blockquote className="mt-4 leading-relaxed text-foreground/90">{t.text}</blockquote>
-                <figcaption className="mt-6 text-sm font-medium text-primary">{t.name}</figcaption>
-              </figure>
-            ))}
-          </div>
-        </div>
-      </section>
-
       {/* CTA final */}
       <section className="relative overflow-hidden bg-secondary/50">
         <div className="mx-auto max-w-3xl px-5 py-20 text-center md:px-8 md:py-28">
           <h2 className="text-balance font-serif text-3xl leading-tight text-foreground md:text-5xl">
-            Você não precisa atravessar isso sozinho
+            Há questões que só começam a encontrar novos sentidos quando podem ser colocadas em palavras.
           </h2>
           <p className="mx-auto mt-5 max-w-xl text-pretty leading-relaxed text-muted-foreground">
-            Dê o primeiro passo em direção ao seu bem-estar. Estou aqui para caminhar ao seu lado.
+            A análise oferece um espaço de escuta para aquilo que inquieta, se repete ou ainda não pôde ser elaborado.
           </p>
           <Link
             href="/contato"
