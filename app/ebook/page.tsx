@@ -19,9 +19,9 @@ export const metadata: Metadata = {
 
 const beneficios = [
   'Compreender melhor a própria história',
-  'dentificar padrões e repetições',
+  'Identificar padrões e repetições',
   'Desenvolver o autoconhecimento',
-  'efletir sobre as próprias escolhas',
+  'Refletir sobre as próprias escolhas',
   'Aprender a escutar as próprias emoções e desejos',
   'Construir novas formas de viver o presente',
 ]

@@ -69,7 +69,7 @@ export function ContatoForm() {
           >
             <option>Atendimento individual online</option>
             <option>Atendimento presencial</option>
-            <option>Grupos terapêuticos</option>
+            <option>Atendimento de casais</option>
             <option>Dúvidas sobre o ebook</option>
             <option>Outro assunto</option>
           </select>
