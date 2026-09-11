@@ -196,7 +196,7 @@ export default function HomePage() {
         <div className="grid items-center gap-12 overflow-hidden rounded-[2.5rem] bg-primary px-6 py-12 text-primary-foreground md:grid-cols-2 md:px-14 md:py-16">
           <div>
             <span className="text-xs uppercase tracking-[0.3em] text-primary-foreground/70">
-              Novo ebook
+              Meu ebook
             </span>
             <h2 className="mt-4 text-balance font-serif text-3xl leading-tight md:text-4xl">
               Compreender sua história pode transformar seu presente.
