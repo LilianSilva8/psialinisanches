@@ -12,19 +12,19 @@ const servicos = [
   {
     icon: Video,
     title: 'Atendimento individual online',
-    text: 'Sessões de psicanálise por videochamada, com o mesmo acolhimento do presencial. Ideal para quem busca flexibilidade e conforto de casa.',
+    text: 'Sessões de psicanálise por videochamada, possibilitando a continuidade do processo analítico independentemente de onde você esteja',
     items: ['Sessões semanais por vídeo', 'Horários flexíveis', 'Sigilo e segurança garantidos', 'De onde você estiver'],
   },
   {
     icon: Heart,
     title: 'Atendimento presencial',
-    text: 'Encontros presenciais em um ambiente acolhedor e reservado, pensado para que você se sinta segura para falar e ser ouvida.',
+    text: 'Sessões presenciais em um espaço reservado, destinado à fala, à escuta e à elaboração.',
     items: ['Espaço acolhedor e reservado', 'Escuta atenta e cuidadosa', 'Ambiente seguro e sigiloso', 'Presença e proximidade'],
   },
   {
     icon: Users,
-    title: 'Terapia de casais',
-    text: 'Encontros reservados para reconectar, compreender as dinâmicas da relação e crescer juntos através do diálogo. A força de reconstruir e fortalecer o vínculo a dois.',
+    title: 'Atendimento de casais',
+    text: 'Um espaço de escuta para compreender os impasses, conflitos e repetições presentes na relação. A partir da fala de cada um, o processo possibilita reconhecer os modos de se relacionar e os sentidos que atravessam o vínculo, favorecendo a elaboração das questões que emergem na relação.',
     items: ['Espaço seguro', 'Reconexão e diálogo', 'Alinhamento do futuro', 'Ambiente sem julgamentos'],
   },
 ]
@@ -37,11 +37,11 @@ export default function ServicosPage() {
         <div className="mx-auto max-w-3xl px-5 py-16 text-center md:px-8 md:py-24">
           <span className="text-xs uppercase tracking-[0.3em] text-primary">Serviços</span>
           <h1 className="mt-4 text-balance font-serif text-4xl leading-tight text-foreground md:text-5xl">
-            Um cuidado para cada momento da sua jornada
+            Diferentes formas de viver o processo analítico
           </h1>
           <p className="mx-auto mt-5 max-w-xl text-pretty leading-relaxed text-muted-foreground">
-            Escolha a forma de atendimento que melhor se encaixa na sua vida. Todos com a mesma
-            escuta atenta e o mesmo compromisso com o seu bem-estar.
+            Os atendimentos são conduzidos a partir da escuta e da singularidade de cada pessoa, 
+            respeitando sua história, suas questões e o seu tempo.
           </p>
         </div>
       </section>

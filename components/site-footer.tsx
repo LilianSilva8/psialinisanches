@@ -12,7 +12,7 @@ export function SiteFooter() {
               Psicanalista
             </p>
             <p className="mt-4 max-w-xs text-sm leading-relaxed text-muted-foreground">
-              Um espaço de escuta, acolhimento e autoconhecimento para você se reencontrar.
+              Um espaço de escuta para compreender sua história e elaborar aquilo que atravessa sua experiência.
             </p>
           </div>
 

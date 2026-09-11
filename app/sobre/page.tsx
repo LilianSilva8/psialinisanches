@@ -20,8 +20,8 @@ export default function SobrePage() {
             A escuta como forma de cuidado
           </h1>
           <p className="mx-auto mt-5 max-w-xl text-pretty leading-relaxed text-muted-foreground">
-            Prazer, sou a Alini Sanches. Dedico o meu trabalho a acompanhar pessoas em suas jornadas
-            de autoconhecimento e reencontro consigo mesmas.
+            Prazer, sou Alini Sanches, psicanalista. Dedico meu trabalho à escuta e ao acompanhamento 
+            de pessoas que desejam compreender sua história, seus conflitos e os sentidos presentes em suas experiências.
           </p>
         </div>
       </section>
@@ -48,23 +48,17 @@ export default function SobrePage() {
               Formação Continuada em Psicanálise | PUC-SP
             </p>
             <p>
-              Minha trajetória é construída pela escuta, pelo estudo contínuo e pelo compromisso com
-              a singularidade de cada pessoa.
+              Minha trajetória é construída pela escuta, pelo estudo contínuo e pelo compromisso 
+              com a singularidade de cada pessoa.
             </p>
             <p>
-              Acredito que compreender a própria história pode abrir caminhos para viver o presente
-              com mais consciência e construir novas possibilidades para o futuro.
+              Acredito que compreender a própria história pode abrir caminhos para reconhecer 
+              aquilo que se repete, elaborar experiências e construir novas possibilidades para o presente.
             </p>
             <p>
-              Meu encontro com a psicanálise nasceu do desejo de compreender a experiência humana em
-              sua singularidade. Desde então, sigo construindo esse percurso por meio do estudo
-              contínuo, da prática clínica, da supervisão e da minha própria análise, compreendendo
-              que a formação de um psicanalista é um processo permanente.
-            </p>
-            <p>
-              Ofereço um espaço de escuta ética, acolhedora e livre de julgamentos, onde cada pessoa
-              possa falar sobre sua história, elaborar suas experiências e construir novos sentidos
-              para aquilo que vive.
+              Meu encontro com a psicanálise nasceu do desejo de compreender a experiência humana em sua 
+              singularidade. Desde então, sigo construindo esse percurso por meio do estudo contínuo, 
+              da prática clínica e do compromisso ético com a escuta.
             </p>
           </div>
         </div>
