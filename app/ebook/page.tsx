@@ -159,35 +159,6 @@ export default function EbookPage() {
         </div>
       </section>
 
-      {/* Depoimentos */}
-      <section className="bg-secondary/40">
-        <div className="mx-auto max-w-6xl px-5 py-20 md:px-8 md:py-28">
-          <div className="mx-auto max-w-2xl text-center">
-            <span className="text-xs uppercase tracking-[0.3em] text-primary">Avaliações</span>
-            <h2 className="mt-4 font-serif text-3xl leading-tight text-foreground md:text-4xl">
-              Transformações reais
-            </h2>
-          </div>
-          <div className="mt-14 grid gap-6 md:grid-cols-3">
-            {[
-              { text: 'Alini sempre maravilhosa! Me ajudou muito com meu processo de cura e a me perceber melhor, conhecer e entender o que me causava tanta ansiedade.', name: 'Jaqueline F.' },
-              { text: 'Profissional bem atenciosa e disponível. Foi a primeira vez que precisei de serviços dessa área, achei que me sentiria desconfortável, mas a Alini é super gentil e paciente.', name: 'Gabrielly N.' },
-              { text: 'Muito bom, as conversas me ajudaram sobre minha vida pessoal e o quanto não somos perfeitos. E que cada dia podemos mudar se acreditarmos em nós mesmos.', name: 'Felipe L.' },
-            ].map((t) => (
-              <figure key={t.name} className="rounded-3xl border border-border/60 bg-card p-8">
-                <div className="flex gap-1 text-primary">
-                  {Array.from({ length: 5 }).map((_, i) => (
-                    <Star key={i} className="size-4 fill-current" />
-                  ))}
-                </div>
-                <blockquote className="mt-4 leading-relaxed text-foreground/90">{t.text}</blockquote>
-                <figcaption className="mt-6 text-sm font-medium text-primary">{t.name}</figcaption>
-              </figure>
-            ))}
-          </div>
-        </div>
-      </section>
-
       {/* Oferta / Preço */}
       <section className="mx-auto max-w-3xl px-5 py-20 md:px-8 md:py-28">
         <div className="overflow-hidden rounded-[2.5rem] border border-border/60 bg-card text-center shadow-xl shadow-primary/10">

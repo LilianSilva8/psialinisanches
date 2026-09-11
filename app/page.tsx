@@ -204,7 +204,7 @@ export default function HomePage() {
             <p className="mt-5 leading-relaxed text-primary-foreground/85">
               Este e-book é um convite à reflexão a partir da psicanálise. Um percurso para olhar para suas repetições, 
               inquietações e experiências com menos julgamento e mais curiosidade, abrindo espaço para compreender os 
-              sentidos presentes na forma como você se relaciona consigo e com o outro.**
+              sentidos presentes na forma como você se relaciona consigo e com o outro.
             </p>
             <Link
               href="/ebook"
