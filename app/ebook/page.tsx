@@ -14,7 +14,7 @@ import { CheckoutButton } from '@/components/checkout-button'
 export const metadata: Metadata = {
   title: 'Ebook: Compreender para Transformar: Um novo olhar a partir da psicanálise | Alini Sanches',
   description:
-    'Nossa história influencia emoções, escolhas e relações, mas compreendê-la permite questionar repetições, escutar desejos e construir novas formas de viver o presente. Por Alini Sanches, psicanalista.',
+    'Um convite à reflexão, a partir da psicanálise, para compreender sua história, reconhecer repetições e se aproximar dos próprios desejos, abrindo espaço para novos sentidos e novas formas de viver o presente.',
 }
 
 const beneficios = [
@@ -49,13 +49,13 @@ export default function EbookPage() {
               Compreender para Transformar: Um novo olhar a partir da psicanálise
             </h1>
             <p className="mt-6 max-w-md text-pretty leading-relaxed text-muted-foreground">
-              Um convite à reflexão, escrito por uma psicanalista, para você compreender sua história, 
-              escutar seus desejos e construir novas formas de viver o presente.
+              Um convite à reflexão, a partir da psicanálise, para compreender sua história, reconhecer repetições 
+              e se aproximar dos próprios desejos, abrindo espaço para novos sentidos e novas formas de viver o presente.
             </p>
 
             <div className="mt-8 flex flex-wrap items-center gap-x-6 gap-y-3 text-sm text-muted-foreground">
               <span className="flex items-center gap-2"><BookOpenCheck className="size-4 text-primary" /> Leitura leve e acolhedora</span>
-              <span className="flex items-center gap-2"><Heart className="size-4 text-primary" /> Reflexões sobre experiências passadas</span>
+              <span className="flex items-center gap-2"><Heart className="size-4 text-primary" /> Reflexões a partir da psicanálise</span>
             </div>
 
             <div className="mt-9">

@@ -5,7 +5,7 @@ import { cn } from '@/lib/utils'
 const HOTMART_URL = 'https://pay.hotmart.com/'
 
 export function CheckoutButton({
-  label = 'Quero meu exemplar agora',
+  label = 'Quero conhecer o e-book',
   className,
 }: {
   label?: string

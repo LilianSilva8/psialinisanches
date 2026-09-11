@@ -16,11 +16,10 @@ export default function ContatoPage() {
         <div className="mx-auto max-w-3xl px-5 py-16 text-center md:px-8 md:py-24">
           <span className="text-xs uppercase tracking-[0.3em] text-primary">Contato</span>
           <h1 className="mt-4 text-balance font-serif text-4xl leading-tight text-foreground md:text-5xl">
-            Vamos conversar
+            Vamos conversar?
           </h1>
           <p className="mx-auto mt-5 max-w-xl text-pretty leading-relaxed text-muted-foreground">
-            Dar o primeiro passo pode parecer difícil, mas você não precisa fazer isso sozinho.
-            Envie uma mensagem e responderei com todo o cuidado.
+            Entre em contato pelo canal que preferir para saber mais sobre os atendimentos ou solicitar um horário.
           </p>
         </div>
       </section>
@@ -31,12 +30,8 @@ export default function ContatoPage() {
           {/* Info */}
           <div>
             <h2 className="font-serif text-3xl leading-tight text-foreground">
-              Canais de atendimento
-            </h2>
-            <p className="mt-4 leading-relaxed text-muted-foreground">
-              Escolha a forma que preferir para entrar em contato. Terei prazer em esclarecer suas
-              dúvidas e te ajudar a começar.
-            </p>
+               Canais de Atendimento
+           </h2>
 
             <div className="mt-10 space-y-6">
               {[
@@ -66,9 +61,7 @@ export default function ContatoPage() {
               <div className="flex items-start gap-3">
                 <Clock className="mt-0.5 size-5 shrink-0 text-primary" />
                 <div>
-                  <p className="text-sm font-medium text-foreground">Horários de atendimento</p>
-                  <p className="mt-1 text-sm leading-relaxed text-muted-foreground">
-                    Segunda a sexta, das 8h às 20h. Sessões com horário marcado.
+                  <p className="text-sm font-medium text-foreground">Sessões com horário marcado.
                   </p>
                 </div>
               </div>
