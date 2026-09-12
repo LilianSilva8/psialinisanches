@@ -70,7 +70,7 @@ export default function ContatoPage() {
                 <div>
                   <p className="text-sm font-medium text-foreground">Atendimento</p>
                   <p className="mt-1 text-sm leading-relaxed text-muted-foreground">
-                    Online para todo o Brasil e presencial mediante agendamento.
+                    Atendimento online no Brasil e no exterior, mediante agendamento.
                   </p>
                 </div>
               </div>

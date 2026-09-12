@@ -75,10 +75,10 @@ export default function SobrePage() {
           </div>
           <div className="mt-14 grid gap-6 sm:grid-cols-2">
             {[
-              { icon: HeartHandshake, title: 'Vínculo e confiança', text: 'A relação terapêutica é o coração do processo. Construímos um espaço seguro para você se abrir no seu tempo.' },
-              { icon: Feather, title: 'Escuta sem julgamentos', text: 'Cada história é única e merece ser ouvida com respeito, delicadeza e presença genuína.' },
-              { icon: Compass, title: 'Sentido e direção', text: 'Juntos, damos nome àquilo que você sente e encontramos caminhos possíveis para seguir.' },
-              { icon: BookOpen, title: 'Base psicanalítica', text: 'Fundamento minha prática na teoria psicanalítica, sempre atualizada e a serviço de você.' },
+              { icon: HeartHandshake, title: 'Compreensão', text: 'A análise possibilita olhar para além do que aparece de imediato, buscando compreender conflitos, sentimentos, padrões e repetições.' },
+              { icon: Feather, title: 'Autonomia', text: 'O processo não oferece respostas prontas, mas favorece uma compreensão mais profunda de si e amplia as possibilidades de escolha.' },
+              { icon: Compass, title: 'Escuta singular', text: 'Cada pessoa possui uma história única. A escuta acontece sem julgamentos, respeitando aquilo que emerge em cada processo.' },
+              { icon: BookOpen, title: 'Elaboração', text: 'Dar espaço e palavras ao que foi vivido permite construir novos sentidos para experiências que ainda produzem sofrimento ou inquietação.' },
             ].map((p) => (
               <div key={p.title} className="flex items-start gap-5 rounded-3xl border border-border/60 bg-background p-7">
                 <span className="flex size-12 shrink-0 items-center justify-center rounded-2xl bg-secondary text-primary">
