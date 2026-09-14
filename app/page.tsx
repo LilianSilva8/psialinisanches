@@ -26,12 +26,14 @@ export default function HomePage() {
               >
                 Agende sua sessão <ArrowRight className="size-4" />
               </Link>
-              <Link
-                href="/ebook"
+              <a
+                href="https://pay.hotmart.com/K107610707K?bid=1789427133847"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 rounded-full border border-primary/40 px-7 py-3 text-sm font-medium text-primary transition-colors hover:bg-primary/10"
               >
                 Conheça meu e-book
-              </Link>
+              </a>
             </div>
           </div>
 
@@ -206,12 +208,14 @@ export default function HomePage() {
               inquietações e experiências com menos julgamento e mais curiosidade, abrindo espaço para compreender os 
               sentidos presentes na forma como você se relaciona consigo e com o outro.
             </p>
-            <Link
-              href="/ebook"
+            <a
+              href="https://pay.hotmart.com/K107610707K?bid=1789427133847"
+              target="_blank"
+              rel="noopener noreferrer"
               className="mt-8 inline-flex items-center gap-2 rounded-full bg-background px-7 py-3 text-sm font-medium text-primary transition-transform hover:scale-[1.02]"
             >
               Conheça meu e-book <ArrowRight className="size-4" />
-            </Link>
+            </a>
           </div>
           <div className="relative mx-auto aspect-square w-full max-w-sm">
             <Image
