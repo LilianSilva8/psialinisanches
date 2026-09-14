@@ -2,7 +2,7 @@ import { ArrowRight } from 'lucide-react'
 import { cn } from '@/lib/utils'
 
 // URL de checkout do produto Hotmart
-const HOTMART_URL = 'https://pay.hotmart.com/K107610707K?bid=1789426548329'
+const HOTMART_URL = 'https://pay.hotmart.com/K107610707K?bid=1789427133847'
 
 interface CheckoutButtonProps {
   label?: string
