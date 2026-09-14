@@ -1,16 +1,18 @@
 import { ArrowRight } from 'lucide-react'
 import { cn } from '@/lib/utils'
 
-// Substitua pelo link real do produto no Hotmart
-const HOTMART_URL = 'https://pay.hotmart.com/'
+// URL de checkout do produto Hotmart
+const HOTMART_URL = 'https://pay.hotmart.com/K107610707K?bid=1789426548329'
+
+interface CheckoutButtonProps {
+  label?: string
+  className?: string
+}
 
 export function CheckoutButton({
   label = 'Quero conhecer o e-book',
   className,
-}: {
-  label?: string
-  className?: string
-}) {
+}: CheckoutButtonProps) {
   return (
     <a
       href={HOTMART_URL}
