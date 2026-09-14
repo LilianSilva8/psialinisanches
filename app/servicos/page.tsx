@@ -12,7 +12,7 @@ const servicos = [
   {
     icon: Video,
     title: 'Atendimento individual online',
-    text: 'Sessões de psicanálise por videochamada, possibilitando a continuidade do processo analítico independentemente de onde você esteja',
+    text: 'Sessões de psicanálise por videochamada, possibilitando a continuidade do processo analítico independentemente de onde você esteja.',
     items: ['Sessões semanais por vídeo', 'Horários flexíveis', 'Sigilo e segurança garantidos', 'De onde você estiver'],
   },
   {
@@ -83,7 +83,7 @@ export default function ServicosPage() {
           <div className="mx-auto max-w-2xl text-center">
             <span className="text-xs uppercase tracking-[0.3em] text-primary">Como funciona</span>
             <h2 className="mt-4 font-serif text-3xl leading-tight text-foreground md:text-4xl">
-              O caminho até a sua primeira sessão
+              Vamos encontrar o formato e o horário que melhor se encaixam na sua rotina.
             </h2>
           </div>
           <div className="mt-14 grid gap-8 md:grid-cols-3">

@@ -246,7 +246,7 @@ export default function EbookPage() {
           </h2>
           <p className="mx-auto mt-5 max-w-xl text-pretty leading-relaxed text-primary-foreground/85">
             Dê a si mesmo o espaço para compreender a sua história. Comece agora uma jornada de reflexão, escuta
-            e novas possibilidades para viver o presente
+            e novas possibilidades para viver o presente.
           </p>
           <div className="mt-9">
             <CheckoutButton
