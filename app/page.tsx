@@ -21,7 +21,7 @@ const links = [
 
 export default function HomePage() {
   return (
-    <main className="relative flex min-h-svh items-center justify-center overflow-hidden bg-[#f7eee8] px-5 py-12 text-[#754b3b]">
+    <main className="relative flex min-h-svh items-center justify-center overflow-hidden bg-[#f7eee8] px-5 py-12 text-[#964b20]">
       <div className="pointer-events-none absolute -left-24 -top-24 size-72 rounded-full bg-[#e4c9bb]/50 blur-3xl" />
       <div className="pointer-events-none absolute -bottom-28 -right-20 size-80 rounded-full bg-[#d6b3a5]/40 blur-3xl" />
 
@@ -37,7 +37,7 @@ export default function HomePage() {
           />
         </div>
 
-        <h1 className="mt-6 font-serif text-4xl font-semibold tracking-wide text-[#754b3b]">
+        <h1 className="mt-6 font-serif text-4xl font-semibold tracking-wide text-[#964b20]">
           Alini Sanches
         </h1>
         <p className="mt-1 text-sm font-medium tracking-[0.08em] text-[#967263]">
@@ -51,7 +51,7 @@ export default function HomePage() {
               href={href}
               target="_blank"
               rel="noopener noreferrer"
-              className="group flex min-h-14 items-center justify-center gap-3 rounded-2xl border border-[#c99f8d]/60 bg-white/75 px-5 py-4 text-sm font-medium text-[#754b3b] shadow-[0_5px_18px_rgba(117,75,59,0.06)] backdrop-blur-sm transition-all hover:-translate-y-0.5 hover:border-[#a87560] hover:bg-white hover:shadow-[0_8px_22px_rgba(117,75,59,0.12)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#a87560] focus-visible:ring-offset-2 focus-visible:ring-offset-[#f7eee8]"
+              className="group flex min-h-14 items-center justify-center gap-3 rounded-2xl border border-[#c99f8d]/60 bg-white/75 px-5 py-4 text-sm font-medium text-[#964b20] shadow-[0_5px_18px_rgba(117,75,59,0.06)] backdrop-blur-sm transition-all hover:-translate-y-0.5 hover:border-[#a87560] hover:bg-white hover:shadow-[0_8px_22px_rgba(117,75,59,0.12)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#a87560] focus-visible:ring-offset-2 focus-visible:ring-offset-[#f7eee8]"
             >
               <Icon className="size-4 text-[#a87560] transition-transform group-hover:scale-110" aria-hidden="true" />
               <span>{label}</span>
@@ -64,7 +64,7 @@ export default function HomePage() {
           target="_blank"
           rel="noopener noreferrer"
           aria-label="Instagram de Alini Sanches"
-          className="mt-8 rounded-full p-2 text-[#a87560] transition-colors hover:bg-white/60 hover:text-[#754b3b] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#a87560]"
+          className="mt-8 rounded-full p-2 text-[#a87560] transition-colors hover:bg-white/60 hover:text-[#964b20] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#a87560]"
         >
           <svg viewBox="0 0 24 24" className="size-5" aria-hidden="true" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round"><rect width="18" height="18" x="3" y="3" rx="5" /><circle cx="12" cy="12" r="4" /><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none" /></svg>
         </a>
