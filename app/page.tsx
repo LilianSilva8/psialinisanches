@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import { ArrowUpRight, BookOpen, Camera, MessageCircle } from 'lucide-react'
+import { ArrowUpRight, BookOpen, MessageCircle } from 'lucide-react'
 
 const links = [
   {
@@ -66,7 +66,7 @@ export default function HomePage() {
           aria-label="Instagram de Alini Sanches"
           className="mt-8 rounded-full p-2 text-[#a87560] transition-colors hover:bg-white/60 hover:text-[#754b3b] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#a87560]"
         >
-          <Camera className="size-5" aria-hidden="true" />
+          <svg viewBox="0 0 24 24" className="size-5" aria-hidden="true" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round"><rect width="18" height="18" x="3" y="3" rx="5" /><circle cx="12" cy="12" r="4" /><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none" /></svg>
         </a>
         <p className="mt-6 text-[0.68rem] uppercase tracking-[0.25em] text-[#b18b7c]">
           Escuta, acolhimento e transformação
