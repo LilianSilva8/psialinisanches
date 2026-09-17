@@ -53,7 +53,7 @@ export default function HomePage() {
               rel="noopener noreferrer"
               className="group flex min-h-14 items-center justify-center gap-3 rounded-2xl border border-[#964b20] bg-[#964b20] px-5 py-4 text-sm font-medium text-white shadow-[0_5px_18px_rgba(117,75,59,0.16)] transition-all hover:-translate-y-0.5 hover:border-[#783c19] hover:bg-[#783c19] hover:shadow-[0_8px_22px_rgba(117,75,59,0.22)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#964b20] focus-visible:ring-offset-2 focus-visible:ring-offset-[#f7eee8]"
             >
-              <Icon className="size-4 text-[#a87560] transition-transform group-hover:scale-110" aria-hidden="true" />
+              <Icon className="size-4 text-white transition-transform group-hover:scale-110" aria-hidden="true" />
               <span>{label}</span>
             </a>
           ))}
