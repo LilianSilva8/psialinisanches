@@ -1,7 +1,14 @@
+'use client'
+
 import Link from 'next/link'
+import { usePathname } from 'next/navigation'
 import { Camera, Mail, MessageCircle } from 'lucide-react'
 
 export function SiteFooter() {
+  const pathname = usePathname()
+
+  if (pathname === '/') return null
+
   return (
     <footer className="border-t border-border/60 bg-secondary/40">
       <div className="mx-auto max-w-6xl px-5 py-14 md:px-8">
