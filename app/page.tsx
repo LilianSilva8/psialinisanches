@@ -33,7 +33,7 @@ export default function HomePage() {
             fill
             priority
             sizes="144px"
-            className="object-cover object-top"
+            className="object-cover object-center"
           />
         </div>
 
