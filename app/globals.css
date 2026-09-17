@@ -41,31 +41,31 @@
 
   /* Paleta Alini Sanches */
   --background: #fbf0e8;
-  --foreground: #964b20;
+  --foreground: #965420;
 
   --card: #fbf0e8;
-  --card-foreground: #964b20;
+  --card-foreground: #965420;
 
   --popover: #fbf0e8;
-  --popover-foreground: #964b20;
+  --popover-foreground: #965420;
 
-  --primary: #964b20;
+  --primary: #965420;
   --primary-foreground: #f6e4d4;
 
   --secondary: #d7bbac;
-  --secondary-foreground: #964b20;
+  --secondary-foreground: #965420;
 
   --muted: #d7bbac;
-  --muted-foreground: #964b20;
+  --muted-foreground: #965420;
 
   --accent: #d7bbac;
-  --accent-foreground: #964b20;
+  --accent-foreground: #965420;
 
   --destructive: oklch(0.577 0.18 25);
 
   --border: #d7bbac;
   --input: #d7bbac;
-  --ring: #964b20;
+  --ring: #965420;
 }
 
 @layer base {
