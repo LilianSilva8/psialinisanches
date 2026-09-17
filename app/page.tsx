@@ -28,7 +28,7 @@ export default function HomePage() {
       <section className="relative z-10 flex w-full max-w-md flex-col items-center text-center">
         <div className="relative size-32 overflow-hidden rounded-full border-4 border-white/80 shadow-[0_12px_32px_rgba(117,75,59,0.16)] sm:size-36">
           <Image
-            src="/images/alini-profissional.png"
+            src="/images/alini-hero.png"
             alt="Alini Sanches, psicanalista"
             fill
             priority
