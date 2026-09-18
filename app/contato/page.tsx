@@ -11,7 +11,7 @@ export const metadata: Metadata = {
 export default function ContatoPage() {
   return (
     <>
-      {/* Cabeçalho cima*/}
+      {/* Cabeçalho */}
       <section className="bg-secondary/40">
         <div className="mx-auto max-w-3xl px-5 py-16 text-center md:px-8 md:py-24">
           <span className="text-xs uppercase tracking-[0.3em] text-primary">Contato</span>

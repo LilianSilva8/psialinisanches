@@ -22,7 +22,7 @@ const jost = Jost({
 export const metadata: Metadata = {
   title: 'Alini Sanches | Psicanalista',
   description:
-    'Alini Sanches — Psicanalista | PUC-SP. Conheça meu trabalho, meu e-book e agende sua sessão.',
+    'Psicanálise para o seu autoconhecimento. Atendimento individual online, presencial e em grupo com acolhimento, escuta e cuidado.',
   generator: 'v0.app',
 }
 
