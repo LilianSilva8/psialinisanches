@@ -18,7 +18,7 @@ export function SiteHeader() {
   const pathname = usePathname()
   const [open, setOpen] = useState(false)
 
-  if (pathname === '/') return null
+  if (pathname === '/' || pathname === '/bio') return null
 
   return (
     <header className="sticky top-0 z-50 border-b border-border/60 bg-background/85 backdrop-blur-md">
